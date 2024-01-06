@@ -8,6 +8,9 @@ const User = require("./models/User.js");
 require("dotenv").config();
 const app = express();
 
+// In summary, axios.post is used to send data from the client to the server,
+// while express.post is used on the server to receive data from the client.
+
 const bcryptSalt = bcrpt.genSaltSync(10);
 const jwtSecret = "fasefrasef32fsedf";
 
